@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Algorithms>
+	<Algorithm type="Classifier">
+		<Name>My K nearest Algorithm</Name>
+		<Desc>K nearest neighbor</Desc>
+		<ClassName>MyKNN</ClassName>
+		<Path>Knn/</Path>
+		<Parameter type="Integer">
+		  <Name>Number_Neighbors</Name>
+		  <Default>5</Default>
+		  <Min>1</Min>
+		  <Max>200</Max>
+		</Parameter>
+	          <Parameter type="Integer">
+		  <Name>pNumber</Name>
+		  <Default>2</Default>
+		  <Min>0</Min>
+		  <Max>100</Max>
+		</Parameter>
+	</Algorithm>
+</Algorithms> 
